@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: blue;
+    justify-content: flex-end;
+
+
+
+}
+
+.nav,
+ul {
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+
+    list-style: none;
+
+}
+
+.container,
+li {
+    margin-left: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.container a:hover {
+    color: red;
+}
