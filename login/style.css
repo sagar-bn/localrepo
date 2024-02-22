@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background: url(./fantasy-island-in-the-sea-1zy7ne70yh9bwqkt.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cover {
+    border: solid 2px white;
+    border-radius: 10px;
+    color: azure;
+    padding: 15px;
+    width: 450px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.cover h1 {
+    padding-left: 42%;
+
+}
+
+.remember {
+    display: flex;
+    margin: 10px;
+    margin-left: 28px;
+
+    justify-content: space-between;
+
+}
+
+.inputbox {
+    margin: 10px;
+    padding-left: 20px;
+
+}
+
+.button {
+    width: 30px;
+    padding: 10px;
+    margin-left: 35px;
+
+
+}
